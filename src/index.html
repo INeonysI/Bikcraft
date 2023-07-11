@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <meta
       name="description"
       content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para os cliente. Explore o mundo na sua velocidade com a bikecraft"
@@ -83,14 +83,13 @@
         </div>
       </div>
     </main>
+    <!-- BICICLETAS -->
     <article class="py-15 lg:pb-30">
       <h2 class="font-poppins font-semibold text-6xl mb-10 max-w-7xl mx-auto">
         Escolha a sua<span class="text-cor-p1">.</span>
       </h2>
 
-      <ul
-        class="flex gap-5 lg:gap-10 px-5 pb-5 max-w-8xl mx-auto overflow-x-scroll"
-      >
+      <ul class="flex gap-5 lg:gap-10 px-5 pb-5 max-w-8xl mx-auto scroll-x">
         <li class="flex-1 min-w-bicicleta">
           <a href="./bicicletas/magic.html" class="group">
             <div>
@@ -143,6 +142,54 @@
           </a>
         </li>
       </ul>
+    </article>
+    <!-- TECNOLOGIAS -->
+    <article class="bg-cor-c11 lg:shadow-conteudoVazadoYDesktop">
+      <div class="max-w-7xl mx-auto grid sm:grid-cols-2">
+        <div class="pt-16 lg:pt-32">
+          <span class="font-2-l-b text-cor-c5 mb-5">TECNOLOGIA AVANÇADA</span>
+          <h2 class="font-1-xxl text-white mb-8">
+            você escolhe as suas cores e componentes<span>.</span>
+          </h2>
+          <p class="font-2-l text-cor-c5 mb-5">
+            Cada Bikcraft é única e possui a sua identidade. As medidas serão
+            exatas para o seu corpo e altura, garantindo maior conforto e
+            ergonomia na sua pedalada. Você pode também personalizar
+            completamente as suas cores.
+          </p>
+          <a
+            class="mb-20 inline-block text-cor-p1 font-medium font-poppins text-2xl uppercase after:content-[''] after:w-full after:h-2 after:bg-current after:block hover:text-white duration-300"
+            href="./bicicletas.html"
+            >escolha um modelo</a
+          >
+          <div class="flex flex-col lg:flex-row gap-10">
+            <div>
+              <img class="w-6 mb-2" src="./img/icones/eletrica.svg" alt="" />
+              <h3 class="font-1-m text-white mb-2 w-max">Motor Elétrico</h3>
+              <p class="font-2-s text-cor-c5">
+                Toda Bikcraft é equipada com um motor elétrico que possui
+                duração de até 120h. A bateria é recarregada com a sua energia
+                gasta ao pedalar.
+              </p>
+            </div>
+            <div>
+              <img class="w-6 mb-2" src="./img/icones/rastreador.svg" alt="" />
+              <h3 class="font-1-m text-white mb-2 w-max">Rastreador</h3>
+              <p class="font-2-s text-cor-c5">
+                Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos
+                rastreadores e sistemas anti-furto para garantir o seu sossego.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="hidden lg:block">
+          <img
+            class="h-full w-full object-cover object-left"
+            src="./img/fotos/tecnologia.jpg"
+            alt=""
+          />
+        </div>
+      </div>
     </article>
   </body>
 </html>

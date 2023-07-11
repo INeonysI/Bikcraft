@@ -35,8 +35,12 @@ module.exports = {
       boxShadow: {
         conteudoVazadoDesktop: "inset 0 -120px #ffffff",
         conteudoVazadoMobile: "inset 0 -60px #ffffff",
+        conteudoVazadoYDesktop: "inset 0 120px #ffffff, inset 0 -120px #ffffff",
+        conteudoVazadoYMobile: "inset 0 60px #ffffff, inset 0 -60px #ffffff",
       },
       padding: {
+        15: "3.725rem",
+        30: "7.5rem",
         50: "12.5rem",
       },
       fontFamily: {
