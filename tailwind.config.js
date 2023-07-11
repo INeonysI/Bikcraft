@@ -4,12 +4,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        botao: {
-          fundo: {
-            preto: "#111111",
-            hover: "#2E2E2E",
-          },
-        },
         cor: {
           c12: "#000000",
           c11: "#111111",
